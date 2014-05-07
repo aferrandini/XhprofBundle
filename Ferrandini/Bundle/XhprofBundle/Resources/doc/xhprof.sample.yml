@@ -1,0 +1,9 @@
+jns_xhprof:
+    enabled:         true
+    location_web:    http://xhprof.local
+    #request_query_argument: "__xhprof"
+    entity_class:    Ferrandini\Bundle\XhprofBundle\Entity\XhprofDetail
+    enable_xhgui:    true
+    exclude_patterns: ['/css/', '/js/', '/assets/']
+    command: "option"
+    command_option_name: xhprof
