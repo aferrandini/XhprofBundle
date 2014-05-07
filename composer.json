@@ -10,7 +10,6 @@
             "email": "arielferrandini@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "jns/xhprof-bundle": "1.0.*@dev",
         "facebook/xhprof": "dev-master@dev"
