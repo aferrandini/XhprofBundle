@@ -6,14 +6,14 @@
  * 18/03/14
  */ 
 
-namespace SymfonyGuru\Bundle\WebBundle\Entity;
+namespace Ferrandini\Bundle\XhprofBundle\Entity;
 
 use Jns\Bundle\XhprofBundle\Entity\XhprofDetail as BaseXhprofDetail;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
  * @ORM\Entity
- * @ORM\Table(name="details")
+ * @ORM\Table(name="xhprof")
  */
 class XhprofDetail extends BaseXhprofDetail
 {
