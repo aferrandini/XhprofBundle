@@ -1,6 +1,7 @@
 {
     "name": "aferrandini/xhprof-bundle",
-    "license": "MIT",
+    "type": "symfony-bundle",
+    "license": "Apache2",
     "authors": [
         {
             "name": "Ariel Ferrandini",
