@@ -1,8 +1,5 @@
 {
     "name": "aferrandini/xhprof-bundle",
-    "autoload": {
-        "psr-0": { "": "src/" }
-    },
     "license": "MIT",
     "authors": [
         {
@@ -13,5 +10,9 @@
     "require": {
         "jns/xhprof-bundle": "1.0.*@dev",
         "facebook/xhprof": "dev-master@dev"
-    }
+    },
+    "autoload": {
+        "psr-0": { "Ferrandini\\Bundle\\XhprofBundle": "" }
+    },
+    "target-dir": "Ferrandini/Bundle/XhprofBundle"
 }
